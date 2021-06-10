@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vscode-netcore-extension-pack</id>
+    <version>1.5.1</version>
+    <packageSourceUrl>https://github.com/doggy8088/chocolatey-vscode-netcore-extension-pack.git</packageSourceUrl>
+    <owners>Will 保哥</owners>
+    <title>.NET Core Extension Pack VSCode Extension</title>
+    <authors>Will 保哥</authors>
+    <projectUrl>https://github.com/doggy8088/netcore-extension-pack</projectUrl>
+    <iconUrl>https://github.com/doggy8088/netcore-extension-pack/raw/master/icon.png</iconUrl>
+    <copyright>Will 保哥</copyright>
+    <licenseUrl>https://github.com/doggy8088/netcore-extension-pack/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/doggy8088/netcore-extension-pack</projectSourceUrl>
+    <docsUrl>https://github.com/doggy8088/netcore-extension-pack/</docsUrl>
+    <bugTrackerUrl>https://github.com/doggy8088/netcore-extension-pack/issues</bugTrackerUrl>
+    <tags>vscode .net-core .net</tags>
+    <summary>.NET Core Extension Pack for Visual Studio Code</summary>
+    <description>
+This extension pack packages some of the most popular (and some of my favorite) **.NET Core** related extensions. If you like it, please leave your `Rating &amp; Review` and share with your friends. If you have any idea on how to improve this extension pack, I'm looking forwarded to hear from you. Just [let me know](https://github.com/doggy8088/netcore-extension-pack/issues) your awesome ideas! 😊
+    </description>
+    <releaseNotes>
+* Add [Peek Hidden Files](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.toggle-hidden) extension.
+* Add [C# to TypeScript](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.csharp-to-typescript) extension.
+* Add [Blazor Snippet Pack](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.blazor-snippet-pack) extension.
+* Replace [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions) (`jchannon`) with [C# Extensions](https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions) (`JosKreativ`).
+* Replace [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) (`quicktype`) with [Paste JSON as Code (Refresh)](https://marketplace.visualstudio.com/items?itemName=doggy8088.quicktype-refresh) (`Will 保哥`).
+  * It because the original [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) extension is not updating since **9/20/2018, 11:48:28 PM**. Many of the already fixed bugs/issues are not released. That's why I published this extension with latest version from the [quicktype/quicktype-vscode](https://github.com/quicktype/quicktype-vscode) repo.
+* Update `README.md`
+    </releaseNotes>
+    <dependencies>
+      <dependency id="vscode" version="1.52.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

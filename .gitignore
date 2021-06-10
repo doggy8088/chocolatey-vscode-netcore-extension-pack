@@ -1,0 +1,8 @@
+*.nupkg
+publish.ps1
+LatestChocoVersion.txt
+LatestVersion.txt
+bombardier.nuspec
+bombardier-windows-386.exe
+bombardier-windows-amd64.exe
+tools/chocolateyinstall.ps1
